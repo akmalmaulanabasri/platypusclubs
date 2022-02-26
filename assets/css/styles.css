@@ -230,3 +230,28 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    vertical-align: baseline;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer a{
+    width: 80%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .logos-footer{
+    width: 20%;
+}
+
+.logos-footer a{
+    font-size: 25px;
+    padding-left: 20px;
+}
