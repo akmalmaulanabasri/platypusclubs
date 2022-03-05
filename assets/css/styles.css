@@ -131,12 +131,16 @@ body{
 }
 
 .project input{
-    width: 100%;
-    padding: 10px;
+    width: 50%;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid #fff;
     margin-bottom: 10px;
     background-color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: black;
 }
 
 .project a{
