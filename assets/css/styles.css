@@ -270,3 +270,58 @@ body{
     font-size: 25px;
     padding-left: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .logos{
+        display: none;
+    }
+
+    .txt{
+        width: 85%;
+    }
+
+    .main-group{
+        width: 100%;
+    }
+    
+    .main-txt{
+        width: 100%;
+    }
+
+    .mt10{
+        margin-top: 10px;
+    }
+
+    .project img{
+        width: 50px;
+        border-radius: 15px;
+    }
+
+    .main .main-txt{
+        text-align: left;
+        margin-top: 55px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards{
+        width: 80%;
+        padding-bottom: 20px;
+    }
+
+    .buttons li{
+        list-style: none;
+        padding: 10px 0px;
+    }
+
+    .card-item{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .galery{
+        display: block;
+        align-items: center;
+    }
+}
