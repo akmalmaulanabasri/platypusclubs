@@ -98,16 +98,12 @@ body{
     width: 75%;
     margin: auto;
     margin-top: 60px;
-
-    backdrop-filter: blur(5px) saturate(200%);
-    -webkit-backdrop-filter: blur(5px) saturate(200%);
-    background-color: rgba(15, 196, 208, 0.54);
+    background-color: #222222;
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    -webkit-box-shadow:0px 0px 105px 4px rgba(120,122,122,0.48);
+    -moz-box-shadow: 0px 0px 105px 4px rgba(120,122,122,0.48);
+    box-shadow: 0px 0px 105px 4px rgba(120,122,122,0.48);
 
-    -webkit-box-shadow:0px 0px 43px 12px rgba(15,195,208,0.45);
-    -moz-box-shadow: 0px 0px 43px 12px rgba(15,195,208,0.45);
-    box-shadow: 0px 0px 43px 12px rgba(15,195,208,0.45);
 }
 
 .card-custom .carousel{
